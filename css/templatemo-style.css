@@ -51,11 +51,27 @@ h2 { font-size: 2.2rem; }
 	height: 100px;
 }
 
+.justify-txt {
+	text-align: justify;
+}
+
+.dark-txt-color {
+	color: rgb(63, 83, 61)
+}
+
+.img-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
 .tm-site-name {
 	color: #7d9c83;
 	display: block;
 	font-size: 2.6rem;
 	font-weight: 400;
+	cursor:default;
 }
 
 .tm-main-nav { font-size: 1.2rem; }
@@ -74,7 +90,7 @@ h2 { font-size: 2.2rem; }
 
 }
 
-.tm-gold-text { color: #7d9c83; }
+.tm-gold-text { color: #5b7561; }
 
 .tm-section {
 	padding-top: 80px;
@@ -135,7 +151,7 @@ h4 {
 
 .tm-btn:hover,
 .tm-btn:focus {
-	background-color: #906E09;
+	background-color: #c49a1d;
 	color: white;
 	outline: none;
 }
